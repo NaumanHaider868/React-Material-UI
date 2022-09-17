@@ -12,7 +12,7 @@ import React from 'react'
 export const SideBar = ({mode,setMode}) => {
   return (
     <Box  flex={1} p={2} sx={{ display: { xs: 'none', sm: 'block' } }} >
-      <Box position='fixed'>
+      <Box position='fixed' style={{marginTop: '22px'}}>
         <List>
 
           <ListItem disablePadding>

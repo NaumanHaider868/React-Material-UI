@@ -16,6 +16,7 @@ export const Post = () => {
               N
             </Avatar>
           }
+          style={{padding:'12px 10px 12px 15px'}}
           action={
             <IconButton aria-label="settings">
               <MoreVertIcon />
@@ -31,13 +32,13 @@ export const Post = () => {
           alt="Nauman"
         />
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2"  color="text.secondary">
             This impressive paella is a perfect party dish and a fun meal to cook
             together with your guests. Add 1 cup of frozen peas along with the mussels,
             if you like.
           </Typography>
         </CardContent>
-        <CardActions disableSpacing>
+        <CardActions disableSpacing style={{padding:'0px'}}>
           <IconButton aria-label="add to favorites">
             <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite sx={{ color: 'red' }} />} />
           </IconButton>
